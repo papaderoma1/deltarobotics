@@ -1,0 +1,435 @@
+  /*-----------------------------------------------------------------------------------\
+   |--------------------------------------Mobile----------------------------------------|
+   \-----------------------------------------------------------------------------------*/
+.dropbtn1m {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropbtn2m {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropbtn3m {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropbtn4m {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.dropdownm {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentm {
+  display: none;
+  position: absolute; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background: transparent;
+  color: white;
+}
+
+.dropdown-contentm a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: transparent;
+}
+
+.dropdown-contentm a:hover {background-color: lightblue;}
+
+.dropdownm:hover .dropdown-contentm {
+	display: block; 
+	background-color: rgba(0,0,0,0.4);
+	}
+
+.dropdownm:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn1m:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn2m:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn3m:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn4m:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+
+}
+#t1{
+	float: center;
+	width: 100%;
+	padding-left: 40px;
+}
+
+#par1m {
+	width: 100%;
+	text-align: center;
+	color: #c4d4e0;
+	font-size: 30px;
+	height: 2em;
+	text-shadow: 3px 3px 3px lightblue;
+	margin: -8px 0px -3px -8px;
+	position: relative;
+}
+#par1m:hover {
+	
+	text-shadow:
+	3px 3px 3px lightblue,
+      0 0 7px lightblue,
+      0 0 10px lightblue,
+      0 0 21px lightblue,
+      0 0 42px lightblue;
+	
+}
+
+#parrm {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+#footerm {
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	animation: deschidere 0.3s;
+	position: absolute;
+	background: rgba(128, 216, 255, 0.4);
+}
+
+#termsm {
+	color: Black;
+	font-weight: bold;
+}
+
+#termsm:hover {
+	color: Blue;
+	font-weight: bold;
+}
+#designm {
+	color: Black;
+	float: center;
+}
+
+
+#designm:hover {
+	color: Blue;
+}
+
+#wrapm {
+	padding-bottom: 6rem;
+}
+#pagewrapm {
+  min-height: 100vh;
+}
+   
+.parm span {
+	background: rgba(128, 216, 255, 0.4);
+}
+#form1m {
+	width: 100%;
+	text-align: center;
+	animation: deschidere 0.3s;
+
+}
+
+#Table1m {
+	background-color: lightblue;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.contact1m {
+	width: 170px;
+	height: 15px;
+	text-align: center;
+	float: right;
+	border: solid black;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+.contact2m {
+	width: 170px;
+	height: 15px;
+	text-align: center;
+	float:right;
+	border-radius: 5px;
+	border: solid black;
+	margin-right: 15px;
+}
+
+
+.contact3m {
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	border: solid black;
+}
+.contact3m:hover {
+	cursor: pointer;
+}
+.contact3m:active {
+	background: lightgrey;
+	width: 185px;
+}
+.listm {
+	text-align: left;
+	padding-left: 58px;
+}
+   /*-----------------------------------------------------------------------------------\
+   |----------------------------Larger than 600px---------------------------------------|
+   \-----------------------------------------------------------------------------------*/
+.dropbtn1 {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropbtn2 {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropbtn3 {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.dropbtn4 {
+  background: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute; 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background: transparent;
+  color: white;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: transparent;
+}
+
+.dropdown-content a:hover {background-color: lightblue;}
+
+.dropdown:hover .dropdown-content {
+	display: block; 
+	background-color: rgba(0,0,0,0.4);
+	}
+
+.dropdown:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn1:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn2:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn3:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+}
+.dropbtn4:hover {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,62,97,1) 0%, rgba(0,212,255,1) 100%);
+border-radius: 5px 5px 5px 5px;
+
+}
+
+#par1 {
+	width: 15%;
+	text-align: right;
+	color: #c4d4e0;
+	font-size: 30px;
+	height: 2em;
+	text-shadow: 3px 3px 3px lightblue;
+	margin: -8px 0px -3px -8px;
+	float: right;
+}
+
+#par1:hover {
+	text-shadow:
+	3px 3px 3px lightblue,
+      0 0 7px lightblue,
+      0 0 10px lightblue,
+      0 0 21px lightblue,
+      0 0 42px lightblue;
+}
+
+#parr {
+	color: inherit;
+	text-decoration: inherit;
+}
+body {
+	background-image: url("../poze/pagina1backg2.gif");
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#footer {
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	animation: deschidere 0.3s;
+	position: absolute;
+	background: rgba(128, 216, 255, 0.4);
+}
+
+#terms {
+	color: Black;
+	font-weight: bold;
+}
+
+#terms:hover {
+	color: Blue;
+	font-weight: bold;
+}
+#design {
+	color: Black;
+	float: right;
+	margin-right: 20px;
+}
+
+#design:hover {
+	color: Blue;
+	background: rgba(128, 216, 255, 0.4);
+}
+@keyframes deschidere
+{
+  from 
+  {
+    transform:translate(300px);
+  }
+  to 
+  {
+    transform:translate(0px);
+  }
+}
+
+#wrap {
+	padding-bottom: 6rem;
+}
+#pagewrap {
+  min-height: 100vh;
+}
+.par span {
+	background: rgba(128, 216, 255, 0.4);
+}
+#form1 {
+	width: 100%;
+	text-align: center;
+	animation: deschidere 0.3s;
+
+}
+
+@media only screen and (max-width: 600px) {
+	#pagewrap {display: none;}
+}
+@media only screen and (min-width: 601px){
+	#pagewrapm {display: none;}
+}
+#Table1 {
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+
+.contact1 {
+	width: 450px;
+	height: 30px;
+	text-align: center;
+	float: right;
+	border: solid black;
+	border-radius: 5px;
+}
+.contact2 {
+	width: 450px;
+	height: 30px;
+	text-align: center;
+	float:right;
+	border-radius: 5px;
+	border: solid black;
+}
+.contact3 {
+	width: 500px;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	border: solid black;
+}
+.contact3:hover {
+	cursor: pointer;
+}
+.contact3:active {
+	background: lightgrey;
+	width: 485px;
+}
+.list {
+	text-align: left;
+	padding-left: 295px;
+}
